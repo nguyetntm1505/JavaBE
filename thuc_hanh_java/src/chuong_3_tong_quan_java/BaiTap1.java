@@ -3,7 +3,7 @@ package chuong_3_tong_quan_java;
 import java.util.Scanner;
 //nhap lop scanner trong java
 
-//De bai: Nhập năm sinh của một người. Tính tuổi người đó.
+//De bai: Nhập năm sinh  của một người. Tính tuổi người đó.
 
 public class BaiTap1 {
     public static void main(String[] args) {
