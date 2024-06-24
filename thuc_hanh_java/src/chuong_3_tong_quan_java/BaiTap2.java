@@ -18,8 +18,8 @@ public class BaiTap2 {
         System.out.printf("%d * %d = %d%n", a, b, a * b);
         System.out.printf("%f / %f = %f%n", (double) a, (double) b, (double) a / b);//ep kieu du lieu int -> double
         System.out.print(a + " % " + b + " = " + a % b);
-        /*System.out.printf("%d % %d = %d",a,b,a%b);
-        tai sao cau nay khong ra duoc ket qua dung, ma cho ra ket qua 2%3=0?*/
+        /*System.out.printf("%d %% %d = %d",a,b,a%b);
+        
     }
 
 }
