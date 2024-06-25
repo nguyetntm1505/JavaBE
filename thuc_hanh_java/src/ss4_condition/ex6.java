@@ -1,8 +1,8 @@
-package chuong_4_cau_dieu_kien;
+package ss4_condition;
 
 import java.util.Scanner;
 
-public class BaiTap6 {
+public class ex6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Giải phương trình bậc 2 có dạng: ax^2 + bx + c = 0.");

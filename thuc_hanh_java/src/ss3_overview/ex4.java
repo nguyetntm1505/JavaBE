@@ -1,10 +1,10 @@
-package chuong_3_tong_quan_java;
+package ss3_overview;
 
 import java.util.Scanner;
 
 //De bai: Nhập điểm thi và hệ số 3 môn Toán, Lý, Hóa của một học sinh. Tính điểm trung bình của học sinh đó.
 
-public class BaiTap4 {
+public class ex4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("The name of Student: ");

@@ -1,4 +1,4 @@
-package chuong_3_tong_quan_java;
+package ss3_overview;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ Công thức
 Chu vi: C = 2 * π * r
 Diện tích: A = π * r²*/
 
-public class BaiTap5 {
+public class ex5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter radius: ");

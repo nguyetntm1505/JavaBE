@@ -1,4 +1,4 @@
-package chuong_3_tong_quan_java;
+package ss3_overview;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ a. tiền = số lượng * đơn giá
 b. thuế giá trị gia tăng = 10%
 c. tong hoa don da bao gom thue*/
 
-public class BaiTap3 {
+public class ex3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

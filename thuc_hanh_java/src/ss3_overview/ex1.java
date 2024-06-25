@@ -1,11 +1,11 @@
-package chuong_3_tong_quan_java;
+package ss3_overview;
 
 import java.util.Scanner;
 //nhap lop scanner trong java
 
 //De bai: Nhập năm sinh  của một người. Tính tuổi người đó.
 
-public class BaiTap1 {
+public class ex1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please input year of birth of you: ");

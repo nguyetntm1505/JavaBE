@@ -1,10 +1,10 @@
-package chuong_4_cau_dieu_kien;
+package ss4_condition;
 
 import java.util.Scanner;
 
 //De bai: Nhập vào 2 số nguyên a, b. In ra màn hình kết quả số lớn nhất, nhỏ nhất.
 
-public class BaiTap4 {
+public class ex4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào 2 số nguyên a, b. In ra màn hình kết quả số lớn nhất, nhỏ nhất.");

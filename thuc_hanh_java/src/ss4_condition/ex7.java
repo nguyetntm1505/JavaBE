@@ -1,8 +1,8 @@
-package chuong_4_cau_dieu_kien;
+package ss4_condition;
 
 import java.util.Scanner;
 
-public class BaiTap7 {
+public class ex7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Viết chương trình tính lương của nhân viên dựa theo thâm niên công tác ");
