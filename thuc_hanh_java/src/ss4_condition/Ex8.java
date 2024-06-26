@@ -7,7 +7,7 @@ Nếu tháng là 4, 6, 9, hoặc 11, số ngày là 30.
 Nếu tháng là 2, kiểm tra xem năm có phải là năm nhuận không. Nếu là năm nhuận, số ngày là 29, nếu không, số ngày là 28.
 Cho tất cả các tháng khác, số ngày là 31.*/
 
-public class ex8 {
+public class Ex8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Hay nhap thang: ");

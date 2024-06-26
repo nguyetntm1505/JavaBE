@@ -3,7 +3,7 @@ package ss4_condition;
 import java.util.Scanner;
 //Nhập vào thông tin 1 ngày (ngày - tháng - năm). Kiểm tra ngày có hợp lệ hay không ? Nếu hợp lệ hãy tìm ra ngày kế tiếp (ngày - tháng - năm) & ngày trước đó (ngày - tháng - năm).
 
-public class ex11 {
+public class Ex11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Hay nhap ngay: ");
@@ -80,11 +80,5 @@ public class ex11 {
         } else {
             System.out.println("Ngay khong hop le. Hay nhap ngay hop le !!");
         }
-
     }
-<<<<<<< HEAD
 }
-=======
-}
-
->>>>>>> 7820294d3f4447c3dd52c0258554d59c633ede41

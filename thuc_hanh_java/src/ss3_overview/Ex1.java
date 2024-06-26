@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 //De bai: Nhập năm sinh  của một người. Tính tuổi người đó.
 
-public class ex1 {
+public class Ex1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please input year of birth of you: ");

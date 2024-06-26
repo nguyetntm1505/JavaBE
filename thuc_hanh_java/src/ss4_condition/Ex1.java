@@ -2,7 +2,7 @@ package ss4_condition;
 
 //Tính giá trị của biến c và biến d
 
-public class ex1 {
+public class Ex1 {
     public static void main(String[] args) {
         boolean a = true && false;// -> a = false
         boolean b = (3 > 100) || (25 % 5 == 0); //b = true

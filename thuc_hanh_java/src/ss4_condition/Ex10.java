@@ -3,7 +3,7 @@ package ss4_condition;
 import java.util.Scanner;
 // Kiểm tra 1 số nguyên dương x có phải là số chính phương hay không? Định nghĩa số chính phương: Là số mà kết quả khai căn bậc 2 của nó là 1 số nguyên
 
-public class ex10 {
+public class Ex10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Hay nhap so nguyen duong: ");
@@ -20,8 +20,4 @@ public class ex10 {
             }
         }
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 7820294d3f4447c3dd52c0258554d59c633ede41

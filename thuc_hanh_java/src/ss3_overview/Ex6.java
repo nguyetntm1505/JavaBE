@@ -3,7 +3,7 @@ package ss3_overview;
 import java.util.Scanner;
 //Nhập vào số xe của bạn (Gồm tối đa 5 chữ số). Cho biết số xe của bạn được mấy nút?
 
-public class ex6 {
+public class Ex6 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhap vao so xe cua ban: ");

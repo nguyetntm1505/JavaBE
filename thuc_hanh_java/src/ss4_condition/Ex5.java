@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //de bai: Giải phương trình bậc 1 có dạng: ax + b = 0.
 
-public class ex5 {
+public class Ex5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Giải phương trình bậc 1 có dạng: ax + b = 0.");

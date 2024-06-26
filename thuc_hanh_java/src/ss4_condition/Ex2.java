@@ -3,7 +3,7 @@ package ss4_condition;
 import java.util.Scanner;
 
 //Nhập vào 1 số tự nhiên từ 1 đến 10, sau đó in ra tiếng Anh của từ đó
-public class ex2 {
+public class Ex2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhap vao so tu nhien n: ");

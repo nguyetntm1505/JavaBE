@@ -2,7 +2,7 @@ package ss4_condition;
 
 import java.util.Scanner;
 
-public class ex6 {
+public class Ex6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Giải phương trình bậc 2 có dạng: ax^2 + bx + c = 0.");

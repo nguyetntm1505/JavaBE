@@ -2,7 +2,7 @@ package ss4_condition;
 
 import java.util.Scanner;
 
-public class ex7 {
+public class Ex7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Viết chương trình tính lương của nhân viên dựa theo thâm niên công tác ");

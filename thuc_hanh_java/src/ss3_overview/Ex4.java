@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //De bai: Nhập điểm thi và hệ số 3 môn Toán, Lý, Hóa của một học sinh. Tính điểm trung bình của học sinh đó.
 
-public class ex4 {
+public class Ex4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("The name of Student: ");
