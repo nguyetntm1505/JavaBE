@@ -1,6 +1,5 @@
 package ss4_condition;
 
-import java.time.LocalDate;
 import java.util.Scanner;
 
 /*Nhập vào tháng & năm. Hãy cho biết tháng đó trong năm đó có bao nhiêu ngày
