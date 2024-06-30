@@ -1,0 +1,37 @@
+package ss5_loop;
+
+import java.util.Scanner;
+
+/**
+ * In hình * sau đây: (chiều dài các cạnh là không cố định)
+ * <p>
+ * * * * * *
+ * *
+ * *
+ * *
+ * *
+ * * * * * *
+ **/
+public class Ex14 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Hay nhap cot: ");
+        int column = scanner.nextInt();
+        System.out.print("Hay nhap hang: ");
+        int row = scanner.nextInt();
+        int i;
+        int j;
+
+        for (i = 1; i <= row; i++) {
+            for (j = 1; j <= column; j++) {
+                if (j == 1 || j == column || i == 1 || i == row) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+
+    }
+}
