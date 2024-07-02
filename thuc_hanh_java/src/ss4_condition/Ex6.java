@@ -25,7 +25,7 @@ public class Ex6 {
                     System.out.print("The equation has no solution");
                 }
             } else {
-                x = -b / c;
+                x = -c / b;
                 System.out.print("The equation has 1 solution: " + x);
             }
         } else {

@@ -57,18 +57,49 @@ public class Ex16 {
         }
         //Hình d
         //*****
-        //  ****
-        //   ***
-        //     **
-        //       *
+        // ****
+        //  ***
+        //   **
+        //    *
         System.out.println("Hinh D: ");
         for (i = 1; i <= row; i++) {
+            for (j = 1; j < i; j++) {
+                System.out.print(" ");
+            }
+            for (j = 1; j <= row - i + 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        //Hình e
+        //*****
+        //*  *
+        //* *
+        //**
+        //*
+        System.out.println("Hinh E: ");
+        for (i = 1; i <= row; i++) {
             for (j = 1; j <= row; j++) {
-                if (j <= (row - i)) {
+                if (i == 1 || j == 1 || j == row - i + 1) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
                 }
+            }
+            System.out.println();
+        }
+        //Hình f
+        //   *
+        //  ***
+        // *****
+        //*******
+        System.out.println("Hinh F: ");
+        for (i = 1; i <= row; i++) {
+            for (j = 1; j <= row - i; j++) {
+                System.out.print(" ");
+            }
+            for (j = 1; j <= 2 * i - 1; j++) {
+                System.out.print("*");
             }
             System.out.println();
         }
