@@ -48,7 +48,12 @@ public class Ex3 {
         // b. Tìm nhân viên theo họ tên (tìm chính xác).
         System.out.print("Hay nhap ten nhan vien can tim: ");
         String name = scanner.nextLine();
+        System.out.println("Tìm nhân viên theo họ tên (tìm chính xác): ");
         tenNhanVienTrungKhop(name);
+
+        //c. Tìm nhân viên theo họ tên (tìm mềm - Gần chính xác)
+        System.out.println("Tìm nhân viên theo họ tên (tìm mềm - Gần chính xác): ");
+        tenNhanVienGanChinhXac(name);
     }
 
     public static void nhapThongTinNhanVien(int index) {
@@ -96,6 +101,20 @@ public class Ex3 {
             }
         }
         if (isKetQuaTrungKhop == false) {
+            System.out.println("Khong co ket qua trung khop");
+        }
+    }
+
+    //c. Tìm nhân viên theo họ tên (tìm mềm - Gần chính xác)
+    public static void tenNhanVienGanChinhXac(String name) {
+        boolean isKetQuaGanChinhXac = false;
+        for (int i = 0; i < soLuongNhanVien; i++) {
+            if (hoTen[i].contains(name)) {
+                xuatThongTin(i);
+                isKetQuaGanChinhXac = true;
+            }
+        }
+        if (isKetQuaGanChinhXac == false) {
             System.out.println("Khong co ket qua trung khop");
         }
     }
