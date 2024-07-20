@@ -9,13 +9,19 @@ public class Ex4 {
         System.out.print("Hay nhap n: ");
         int n = scanner.nextInt();
         int i;
-
+        int count = 1;
         for (i = 2; i <= n; i = i + 2) {
-            if (i % 3 != 0) {
+//            if (i % 3 != 0) {
+//                System.out.print(i + "\t");
+//            } else {
+//                System.out.print(-i + "\t");
+//            }
+            if (count % 3 != 0) {
                 System.out.print(i + "\t");
             } else {
                 System.out.print(-i + "\t");
             }
+            count++;
         }
     }
 }

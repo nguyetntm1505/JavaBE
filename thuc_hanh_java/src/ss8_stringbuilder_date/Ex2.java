@@ -20,6 +20,7 @@ public class Ex2 {
         Date currentDay = new Date();
         SimpleDateFormat dateFormatB = new SimpleDateFormat("dd/MM/yyyy");
         String stringB = dateFormatB.format(currentDay);
+        //String stringB = currentDay.format(dateFormatB); -> JAVA ko có phương thức này
         System.out.println("Ngay hien tai theo chuoi la: " + stringB);
 
         //c. Chuyển chuỗi "02/28/2023" sang kiểu LocalDate.
@@ -31,8 +32,8 @@ public class Ex2 {
         //d. Chuyển ngày hiện tại (của hệ thống) đang ở kiểu LocalDate sang kiểu String theo đinh dạng dd/MM/yyyy và hiển thị ra màn hình.
         LocalDate currentLocalDate = LocalDate.now();
         DateTimeFormatter formatterD = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        //String stringD = currentDate.format(formatter);
-        String stringD = formatterD.format(currentLocalDate);
+        String stringD = currentLocalDate.format(formatterD);
+        //String stringD = formatterD.format(currentLocalDate);
         System.out.println("Sau khi chuyen ngay hien tai thanh String: " + stringD);
 
         //e. Lấy ngày, tháng, năm, giờ, phút, giây hiện tại của hệ thống.
